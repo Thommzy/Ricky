@@ -1,0 +1,15 @@
+{
+  "originHash" : "189043429e310c187eb7cfa22769c582ef8672b190fe830349daf0160585b2a4",
+  "pins" : [
+    {
+      "identity" : "urlsessionnetworkcaller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Thommzy/URLSessionNetworkCaller.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d73e830f25f077ddcae1a7d06354437b1bafb2f0"
+      }
+    }
+  ],
+  "version" : 3
+}

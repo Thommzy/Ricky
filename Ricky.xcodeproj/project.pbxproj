@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0B15A52C3AE82E000F75A8 /* URLSessionNetworkCaller in Frameworks */ = {isa = PBXBuildFile; productRef = FA0B15A42C3AE82E000F75A8 /* URLSessionNetworkCaller */; };
+		FA0B15A82C3AFA91000F75A8 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B15A72C3AFA91000F75A8 /* LoaderView.swift */; };
+		FA0B15AA2C3AFAF9000F75A8 /* LoaderViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B15A92C3AFAF9000F75A8 /* LoaderViewWrapper.swift */; };
+		FA55BB462C370654005AD3FC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55BB452C370654005AD3FC /* CardView.swift */; };
+		FA55BB4A2C372961005AD3FC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55BB492C372961005AD3FC /* DetailView.swift */; };
+		FABBE6822C39AAB300B66845 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBE6812C39AAB300B66845 /* Character.swift */; };
+		FABBE6842C39ABD600B66845 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBE6832C39ABD600B66845 /* HomeViewModel.swift */; };
 		FAD37BBD2C36CB1900AABD71 /* RickyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD37BBC2C36CB1900AABD71 /* RickyApp.swift */; };
-		FAD37BBF2C36CB1900AABD71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD37BBE2C36CB1900AABD71 /* ContentView.swift */; };
 		FAD37BC12C36CB1A00AABD71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD37BC02C36CB1A00AABD71 /* Assets.xcassets */; };
 		FAD37BC42C36CB1A00AABD71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD37BC32C36CB1A00AABD71 /* Preview Assets.xcassets */; };
 		FAD37BCE2C36CB1A00AABD71 /* RickyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD37BCD2C36CB1A00AABD71 /* RickyTests.swift */; };
 		FAD37BD82C36CB1A00AABD71 /* RickyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD37BD72C36CB1A00AABD71 /* RickyUITests.swift */; };
 		FAD37BDA2C36CB1A00AABD71 /* RickyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD37BD92C36CB1A00AABD71 /* RickyUITestsLaunchTests.swift */; };
+		FAD37BE92C36F7CA00AABD71 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD37BE82C36F7CA00AABD71 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA0B15A72C3AFA91000F75A8 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		FA0B15A92C3AFAF9000F75A8 /* LoaderViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewWrapper.swift; sourceTree = "<group>"; };
+		FA55BB452C370654005AD3FC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FA55BB492C372961005AD3FC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FABBE6812C39AAB300B66845 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		FABBE6832C39ABD600B66845 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		FAD37BB92C36CB1900AABD71 /* Ricky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ricky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD37BBC2C36CB1900AABD71 /* RickyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyApp.swift; sourceTree = "<group>"; };
-		FAD37BBE2C36CB1900AABD71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAD37BC02C36CB1A00AABD71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD37BC32C36CB1A00AABD71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAD37BC92C36CB1A00AABD71 /* RickyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,7 @@
 		FAD37BD32C36CB1A00AABD71 /* RickyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD37BD72C36CB1A00AABD71 /* RickyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyUITests.swift; sourceTree = "<group>"; };
 		FAD37BD92C36CB1A00AABD71 /* RickyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAD37BE82C36F7CA00AABD71 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0B15A52C3AE82E000F75A8 /* URLSessionNetworkCaller in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +85,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA0B15A62C3AFA7C000F75A8 /* LoaderView */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B15A72C3AFA91000F75A8 /* LoaderView.swift */,
+				FA0B15A92C3AFAF9000F75A8 /* LoaderViewWrapper.swift */,
+			);
+			path = LoaderView;
+			sourceTree = "<group>";
+		};
+		FA55BB422C36FA34005AD3FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FABBE6812C39AAB300B66845 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA55BB432C36FA3A005AD3FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B15A62C3AFA7C000F75A8 /* LoaderView */,
+				FAD37BE62C36F7AB00AABD71 /* Home */,
+				FAD37BE72C36F7B300AABD71 /* Detail */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA55BB442C36FA40005AD3FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FABBE6832C39ABD600B66845 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FAD37BB02C36CB1900AABD71 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +143,10 @@
 		FAD37BBB2C36CB1900AABD71 /* Ricky */ = {
 			isa = PBXGroup;
 			children = (
+				FA55BB442C36FA40005AD3FC /* ViewModel */,
+				FA55BB432C36FA3A005AD3FC /* Views */,
+				FA55BB422C36FA34005AD3FC /* Model */,
 				FAD37BBC2C36CB1900AABD71 /* RickyApp.swift */,
-				FAD37BBE2C36CB1900AABD71 /* ContentView.swift */,
 				FAD37BC02C36CB1A00AABD71 /* Assets.xcassets */,
 				FAD37BC22C36CB1A00AABD71 /* Preview Content */,
 			);
@@ -127,6 +178,23 @@
 			path = RickyUITests;
 			sourceTree = "<group>";
 		};
+		FAD37BE62C36F7AB00AABD71 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAD37BE82C36F7CA00AABD71 /* HomeView.swift */,
+				FA55BB452C370654005AD3FC /* CardView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FAD37BE72C36F7B300AABD71 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FA55BB492C372961005AD3FC /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +211,9 @@
 			dependencies = (
 			);
 			name = Ricky;
+			packageProductDependencies = (
+				FA0B15A42C3AE82E000F75A8 /* URLSessionNetworkCaller */,
+			);
 			productName = Ricky;
 			productReference = FAD37BB92C36CB1900AABD71 /* Ricky.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +286,9 @@
 				Base,
 			);
 			mainGroup = FAD37BB02C36CB1900AABD71;
+			packageReferences = (
+				FA0B15A32C3AE82E000F75A8 /* XCRemoteSwiftPackageReference "URLSessionNetworkCaller" */,
+			);
 			productRefGroup = FAD37BBA2C36CB1900AABD71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD37BBF2C36CB1900AABD71 /* ContentView.swift in Sources */,
+				FABBE6842C39ABD600B66845 /* HomeViewModel.swift in Sources */,
+				FAD37BE92C36F7CA00AABD71 /* HomeView.swift in Sources */,
+				FA55BB462C370654005AD3FC /* CardView.swift in Sources */,
+				FA0B15AA2C3AFAF9000F75A8 /* LoaderViewWrapper.swift in Sources */,
 				FAD37BBD2C36CB1900AABD71 /* RickyApp.swift in Sources */,
+				FA0B15A82C3AFA91000F75A8 /* LoaderView.swift in Sources */,
+				FA55BB4A2C372961005AD3FC /* DetailView.swift in Sources */,
+				FABBE6822C39AAB300B66845 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +663,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA0B15A32C3AE82E000F75A8 /* XCRemoteSwiftPackageReference "URLSessionNetworkCaller" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Thommzy/URLSessionNetworkCaller.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA0B15A42C3AE82E000F75A8 /* URLSessionNetworkCaller */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA0B15A32C3AE82E000F75A8 /* XCRemoteSwiftPackageReference "URLSessionNetworkCaller" */;
+			productName = URLSessionNetworkCaller;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAD37BB12C36CB1900AABD71 /* Project object */;
 }
