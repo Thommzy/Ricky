@@ -10,7 +10,7 @@ import SwiftUI
 struct DetailView: View {
     var character: Character
     @Environment(\.presentationMode) var presentationMode
-
+    
     var body: some View {
         VStack {
             HStack(alignment: .top) {
@@ -23,10 +23,26 @@ struct DetailView: View {
                     Text("Episodes: \(character.episode?.count ?? 0)")
                         .bold()
                         .font(.body)
-                    
-                    Image(systemName: "multiply.circle.fill")
-                        .background(Color.green)
+                    AsyncImage(url: URL(string: character.image ?? "")) { phase in
+                        switch phase {
+                        case .failure:
+                            Image(systemName: "photo")
+                                .resizable()
+                                .scaledToFit()
+                                .font(.largeTitle)
+                                .cornerRadius(5.0)
+                        case .success(let image):
+                            image
+                                .resizable()
+                                .scaledToFit()
+                                .cornerRadius(5.0)
+                        default:
+                            ProgressView()  
+                        }
+                    }
+                    .scaledToFit()
                     Spacer()
+                    
                 }
                 .padding(.leading)
                 Spacer()
@@ -37,14 +53,16 @@ struct DetailView: View {
         .navigationBarItems(leading: Button(action: {
             self.presentationMode.wrappedValue.dismiss()
         }) {
-            Image(systemName: "chevron.left") // Back arrow icon
+            Image(systemName: "chevron.left")
                 .foregroundColor(.blue)
         })
     }
 }
 
-//struct DetailView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DetailView(card: Card(title: "Tim Shrek",description: "Welcome my Man", episodes: "12", species: "Human", gender: "Male", status: "Alive"))
-//    }
-//}
+
+
+struct DetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        DetailView(character: Character(id: 1, name: "Alan Rails", status: "Dead", species: "Human", gender: "Male", image: "https://rickandmortyapi.com/api/character/avatar/10.jpeg", episode: ["https://rickandmortyapi.com/api/episode/25"]))
+    }
+}
