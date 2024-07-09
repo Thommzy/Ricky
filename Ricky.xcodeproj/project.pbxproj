@@ -10,6 +10,7 @@
 		FA0B15A52C3AE82E000F75A8 /* URLSessionNetworkCaller in Frameworks */ = {isa = PBXBuildFile; productRef = FA0B15A42C3AE82E000F75A8 /* URLSessionNetworkCaller */; };
 		FA0B15A82C3AFA91000F75A8 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B15A72C3AFA91000F75A8 /* LoaderView.swift */; };
 		FA0B15AA2C3AFAF9000F75A8 /* LoaderViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B15A92C3AFAF9000F75A8 /* LoaderViewWrapper.swift */; };
+		FA0B15AC2C3BC784000F75A8 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B15AB2C3BC784000F75A8 /* HomeViewModelTests.swift */; };
 		FA55BB462C370654005AD3FC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55BB452C370654005AD3FC /* CardView.swift */; };
 		FA55BB4A2C372961005AD3FC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55BB492C372961005AD3FC /* DetailView.swift */; };
 		FABBE6822C39AAB300B66845 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBE6812C39AAB300B66845 /* Character.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		FA0B15A72C3AFA91000F75A8 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		FA0B15A92C3AFAF9000F75A8 /* LoaderViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewWrapper.swift; sourceTree = "<group>"; };
+		FA0B15AB2C3BC784000F75A8 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		FA55BB452C370654005AD3FC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FA55BB492C372961005AD3FC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		FABBE6812C39AAB300B66845 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				FAD37BCD2C36CB1A00AABD71 /* RickyTests.swift */,
+				FA0B15AB2C3BC784000F75A8 /* HomeViewModelTests.swift */,
 			);
 			path = RickyTests;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD37BCE2C36CB1A00AABD71 /* RickyTests.swift in Sources */,
+				FA0B15AC2C3BC784000F75A8 /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
