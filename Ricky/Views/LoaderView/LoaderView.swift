@@ -12,7 +12,7 @@ class LoaderView: UIView {
     
     override init(frame: CGRect) {
         activityIndicator = UIActivityIndicatorView(style: .large)
-        activityIndicator.color = .red
+        activityIndicator.color = .lightGray
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
         
         super.init(frame: frame)
