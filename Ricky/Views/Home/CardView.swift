@@ -48,8 +48,18 @@ struct CardView: View {
     }
 }
 
-//struct CardView_Previews: PreviewProvider {
-//    static var previews: some View {
-////        CardView(card: Card(title: "Tim Shrek",description: "Welcome my Man", episodes: "12", species: "Human", gender: "Male", status: "Alive"))
-//    }
-//}
+struct CardView_Previews: PreviewProvider {
+    static var previews: some View {
+        CardView(
+            character: Character(
+                id: 1,
+                name: "Alan Rails",
+                status: "Dead",
+                species: "Human",
+                gender: "Male",
+                image: "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+                episode: ["https://rickandmortyapi.com/api/episode/25"]
+            )
+        )
+    }
+}
